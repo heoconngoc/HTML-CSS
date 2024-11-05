@@ -1,0 +1,27 @@
+button {
+  background-color: antiquewhite;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  padding-top: 3.5px;
+  padding-bottom: 4px;
+  margin-right: 7px;
+}
+
+a {
+  margin-right: 7px;
+}
+
+.Stretch {
+  background-color: green;
+  color: white;
+  
+  border: none;
+  transition: padding-left 1s, padding-right 1s, padding-top 1s, padding-bottom 1s;
+}
+.Stretch:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
